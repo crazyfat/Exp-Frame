@@ -25,7 +25,7 @@
         raise NotImplementedError
 ```
 ## 2、评估
-[`./metrics/metrics.py`]中实现了下列评估方法：
+[`./metrics/metrics.py`]()中实现了下列评估方法：
 ```
 def ndcg_at_k(pred_scores, ground_truth, k=100):
 
